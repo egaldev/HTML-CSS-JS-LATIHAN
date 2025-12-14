@@ -1,5 +1,5 @@
 // OMDB API Configuration
-const OMDB_API_KEY = 'd7436166'; // Ganti jika perlu
+const OMDB_API_KEY = 'd7436166';
 const OMDB_BASE_URL = 'https://www.omdbapi.com';
 
 // Global Variables

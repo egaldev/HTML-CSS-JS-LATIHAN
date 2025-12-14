@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page sederhana</title>
+
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- HEADER START -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">My Landing Page</div>
+
+            <!-- NAV LINKS -->
+            <nav class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <!-- Hamburger menu -->
+            <button class="menu-btn" id="menuBtn" aria-label="Toggle-menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-item">
+                <!-- TITLE -->
+                <h1>
+                    Build modern <span>Frontend</span> <br />
+                    With clean code
+                </h1>
+
+                <p>
+                    Saya seorang Front End Developer yang fokus membangun tampilan web
+                    modern, responsif, dan mudah digunakan menggunakan HTML, CSS,
+                    JavaScript, dan React.
+                </p>
+
+                <!-- Buttons -->
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Hire Me</a>
+                    <a href="#projects" class="btn btn-secondary">View Projects</a>
+                </div>
+            </div>
+
+            <div class="hero-item">
+                <img src="202043500768.jpg" alt="Frontend Developer Illustration" class="hero-img">
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- HERO SECTION END -->
+
+    <!-- LINK JS -->
+    <script src="main.js"></script>
+</body>
+
+</html>
